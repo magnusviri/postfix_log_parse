@@ -5,7 +5,7 @@ use Data::Dumper;
 use Getopt::Std;
 
 my $onsite_regex = '^10\.0\.0\.';
-my $my_double_bounce_email = 'double-bounce@example.com'
+my $my_double_bounce_email = 'double-bounce@example.com';
 
 my %options;
 getopts("d:e:pr:s:vx",\%options);
