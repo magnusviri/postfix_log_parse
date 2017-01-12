@@ -2,7 +2,7 @@
 
 This script parses the output of a postfix log file and tries to make sense of it.
 
-It's a work in progress full of lots of debugging code and other messes.
+It's a work in progress full of lots of debugging code and other messes, including a major flaw in that the date is completely discarded when parsing (I didn't really need it until later and then it was such a mess I gave up trying to add it back).
 
 Edit these 2 lines to make it work better for you.
 
